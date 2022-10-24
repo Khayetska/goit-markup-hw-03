@@ -11,9 +11,11 @@ body {
     font-weight: 400px;
 }
 
-a {
+
+.link {
     text-decoration: none;
 }
+
 
 button {
     --font-family: inherit;
@@ -61,6 +63,10 @@ button {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .auth-nav .link {
     color:var(--primery-text-color);
     font-weight: 500;
@@ -102,6 +108,10 @@ button {
     padding: 10px 32px;
     border: none;
     cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: #0083EB;
 }
 
 /*FEATURES*/
@@ -207,7 +217,7 @@ button {
     border: 1px solid #EEEEEE;
 }
 
-.link {
+.portfolio-item {
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
@@ -215,7 +225,7 @@ button {
     color: #212121;
 }
 
-.link > p {
+.portfolio-item > p {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;  
