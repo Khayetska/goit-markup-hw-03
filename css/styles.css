@@ -74,6 +74,7 @@ p {
 .site-nav {
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
 }
 
 .site-nav .link {
@@ -309,10 +310,20 @@ p {
   padding-bottom: 94px;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .portfolio-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
   width: 370px;
+  height: 404px;
+  /* flex-basis: calc((100% - 90px) / 3); */
   padding-bottom: 20px;
   border: 1px solid #EEEEEE;
 }
