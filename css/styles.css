@@ -19,8 +19,15 @@ button {
   --font-family: inherit;
 }
 
+.conteiner {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 .visually-hidden {
@@ -36,6 +43,8 @@ button {
   margin: -1px;
 }
 
+/*header*/
+
 .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -49,7 +58,9 @@ button {
 
 /*site nav*/
 
-.site-nav .link {
+.site-nav
+
+.site-nav > .link {
   color: #000000;
   font-weight: 500;
   font-size: 14px;
