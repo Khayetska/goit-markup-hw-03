@@ -61,7 +61,7 @@ p {
   font-family: "Raleway";
   font-size: 26px;
   line-height: calc(31 / 26);
-  color: #2196f3;
+  color: var(--accent-color);
   display: inline-block;
 }
 
@@ -133,7 +133,7 @@ p {
 }
 
 .hero-button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -147,11 +147,14 @@ p {
   cursor: pointer;
   font-family: inherit;
   margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188CE8;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /*FEATURES*/
@@ -202,6 +205,8 @@ p {
   background-color: #ffffff;
   width: 270px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-img {
@@ -260,7 +265,17 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+ .margin {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
 /*---------------PORTFOLIO-----------------*/
+
+.filtr {
+  margin-top: 0 px;
+  margin-bottom: 50px;
+}
 
 .filtr-button {
   font-weight: 500;
@@ -277,30 +292,49 @@ p {
   border: none;
   cursor: pointer;
   font-family: inherit;
+  border-radius: 4px;
 }
 
 .filtr-button:hover,
 .filtr-button:focus {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+              0px 1px 2px rgba(0, 0, 0, 0.08), 
+              0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  width: 370px;
+  padding-bottom: 20px;
+  border: 1px solid #EEEEEE;
 }
 
-.portfolio-item h2 {
+.portfolio-link img {
+  margin-bottom: 20px;
+}
+
+.portfolio-link h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
+  padding-left: 24px;
 }
 
-.portfolio-item p {
+.portfolio-link p {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+  padding-left: 24px;
 }
