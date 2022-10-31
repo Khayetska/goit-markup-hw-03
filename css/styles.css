@@ -57,8 +57,9 @@ p {
 
 /*header*/
 
-.header-studio, .header-portfolio {
-  border-bottom: 1px solid #ECECEC;;
+.header-studio,
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -66,7 +67,7 @@ p {
   font-size: 26px;
   line-height: calc(31 / 26);
   color: var(--accent-color);
-  display: inline-block; 
+  display: inline-block;
   margin-right: 93px;
 }
 
@@ -119,7 +120,7 @@ header .conteiner {
 .auth-nav {
   margin-top: 0;
   margin-bottom: 0;
-  display: flex; 
+  display: flex;
   gap: 50px;
 }
 
@@ -154,7 +155,7 @@ header .conteiner {
   margin: 0 auto;
   margin-bottom: 30px;
   width: 696px;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -178,7 +179,7 @@ header .conteiner {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -255,7 +256,8 @@ header .conteiner {
   background-color: #ffffff;
   width: 270px;
   padding-bottom: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -277,7 +279,6 @@ header .conteiner {
   text-align: center;
   color: var(--primery-text-color);
 }
-
 
 /*FOOTER*/
 
@@ -301,7 +302,6 @@ header .conteiner {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #ffffff;
-
 }
 
 .footer .list {
@@ -316,7 +316,7 @@ header .conteiner {
   color: rgba(255, 255, 255, 0.6);
 }
 
- .margin {
+.margin {
   margin-top: 9px;
   margin-bottom: 9px;
 }
@@ -358,9 +358,8 @@ header .conteiner {
 .filtr-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-              0px 1px 2px rgba(0, 0, 0, 0.08), 
-              0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects {
@@ -389,7 +388,7 @@ header .conteiner {
 }
 
 .discription {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: 0;
   padding-top: 20px;
 }
