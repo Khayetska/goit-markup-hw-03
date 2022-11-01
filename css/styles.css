@@ -218,7 +218,6 @@ header .conteiner {
 /*WORK*/
 
 .work {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -380,7 +379,6 @@ header .conteiner {
   background: #ffffff;
   width: 370px;
   height: 404px;
-  padding-bottom: 20px;
 }
 
 .portfolio-link img {
@@ -391,6 +389,7 @@ header .conteiner {
   border: 1px solid #eeeeee;
   border-top: 0;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .portfolio-link h2 {
