@@ -60,6 +60,8 @@ p {
 .header-studio,
 .header-portfolio {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -77,10 +79,6 @@ p {
 
 /*site nav*/
 
-header .conteiner {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
 
 header .conteiner {
   display: flex;
@@ -385,11 +383,12 @@ header .conteiner {
   /* margin-bottom: 20px; */
 }
 
-.discription {
+.description {
   border: 1px solid #eeeeee;
   border-top: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .portfolio-link h2 {
@@ -399,7 +398,6 @@ header .conteiner {
   letter-spacing: 0.06em;
   color: #212121;
   margin-bottom: 4px;
-  padding-left: 24px;
 }
 
 .portfolio-link p {
@@ -407,5 +405,4 @@ header .conteiner {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
-  padding-left: 24px;
 }
